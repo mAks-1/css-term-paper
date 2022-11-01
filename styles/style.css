@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;               /* ширина всей полосы прокрутки */
+}
+
+body::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.4);        /* цвет зоны отслеживания */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #333333;    /* цвет бегунка */
+    border-radius: 20px;       /* округлось бегунка */
+    /*border: 3px solid orange;  !* отступ вокруг бегунка *!*/
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+/*font-family: 'Montserrat', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap');
+/*font-family: 'Noto Sans', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+/*font-family: 'Iceland', cursive;*/
