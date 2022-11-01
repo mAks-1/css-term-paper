@@ -38,43 +38,43 @@ window.addEventListener("load", (e)=>{
 
 
 let url = window.location.href;
-if(url.indexOf('http://localhost:63342/css-advance-term-paper/rings-list.html') != -1){
+if((url.indexOf('http://localhost:63342/css-advance-term-paper/rings-list.html') != -1) || (url.indexOf('https://maks-1.github.io/css-term-paper/rings-list.html') != -1)){
     for(let i = 0; i < ringsArr.length; i++){
         const elem = ringsArr[i];
         let catalog = new Products(elem.image, elem.price, elem.brand, elem.type);
         catalog.createProductBlock(block);
     }
-}else if(url.indexOf('http://localhost:63342/css-advance-term-paper/earrings-list.html') != -1){
+}else if((url.indexOf('http://localhost:63342/css-advance-term-paper/earrings-list.html') != -1) || (url.indexOf('https://maks-1.github.io/css-term-paper/earrings-list.html') != -1)){
     for(let i = 0; i < earrings.length; i++){
         const elem = earrings[i];
         let catalog = new Products(elem.image, elem.price, elem.brand, elem.type);
         catalog.createProductBlock(block);
     }
-}else if(url.indexOf('http://localhost:63342/css-advance-term-paper/pendant-list.html') != -1){
+}else if((url.indexOf('http://localhost:63342/css-advance-term-paper/pendants-list.html') != -1) || (url.indexOf('https://maks-1.github.io/css-term-paper/pendants-list.html') != -1)){
     for(let i = 0; i < pendants.length; i++){
         const elem = pendants[i];
         let catalog = new Products(elem.image, elem.price, elem.brand, elem.type);
         catalog.createProductBlock(block);
     }
-}else if(url.indexOf('http://localhost:63342/css-advance-term-paper/cufflinks-list.html') != -1){
+}else if((url.indexOf('http://localhost:63342/css-advance-term-paper/cufflinks-list.html') != -1) || (url.indexOf('https://maks-1.github.io/css-term-paper/cufflinks-list.html') != -1)){
     for(let i = 0; i < cufflinks.length; i++){
         const elem = cufflinks[i];
         let catalog = new Products(elem.image, elem.price, elem.brand, elem.type);
         catalog.createProductBlock(block);
     }
-}else if(url.indexOf('http://localhost:63342/css-advance-term-paper/bracelets-list.html') != -1){
+}else if((url.indexOf('http://localhost:63342/css-advance-term-paper/bracelets-list.html') != -1) || (url.indexOf('https://maks-1.github.io/css-term-paper/bracelets-list.html') != -1)){
     for(let i = 0; i < bracelets.length; i++){
         const elem = bracelets[i];
         let catalog = new Products(elem.image, elem.price, elem.brand, elem.type);
         catalog.createProductBlock(block);
     }
-}else if(url.indexOf('http://localhost:63342/css-advance-term-paper/wrist-watch-list.html') != -1){
+}else if((url.indexOf('http://localhost:63342/css-advance-term-paper/wrist-watch-list.html') != -1) || (url.indexOf('https://maks-1.github.io/css-term-paper/wrist-watch-list.html') != -1)){
     for(let i = 0; i < wristWatch.length; i++){
         const elem = wristWatch[i];
         let catalog = new Products(elem.image, elem.price, elem.brand, elem.type);
         catalog.createProductBlock(block);
     }
-}else if(url.indexOf('http://localhost:63342/css-advance-term-paper/product-catalog.html') != -1){
+}else if((url.indexOf('http://localhost:63342/css-advance-term-paper/product-catalog.html') != -1) || (url.indexOf('https://maks-1.github.io/css-term-paper/product-catalog.html') != -1)){
     for(let i = 0; i < wristWatch.length; i++){
         const elem1 = wristWatch[i];
         const elem2 = bracelets[i];
